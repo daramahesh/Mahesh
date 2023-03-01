@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Adding Employee</title>
+</head>
+<body>
+
+    <h1>Add New Employee</h1>
+   <form action="SaveServlet" method="post">
+      <table>
+         <tr><td>Id:</td><td><input type="text" name="id"></td></tr>
+         <tr><td>Name:</td><td><input type="text" name="name"></td></tr>
+         <tr><td>Salary:</td><td><input type="number" name="salary"></td></tr>
+         <tr><td>Designation:</td><td><input type="text" name="designation"></td></tr>
+         <tr><td></td><td><input type="submit" value="save"></td></tr>
+      </table>
+      <a href="ViewServlet">ViewEmployees</a>
+   </form>
+</body>
+</html>
